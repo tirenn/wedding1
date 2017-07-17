@@ -1,0 +1,379 @@
+li {
+    text-decoration: none;
+    font-weight: normal;
+    text-transform: uppercase;
+    border-bottom: 3px solid transparent;
+}
+
+.navbar-default {
+    width: 100%;
+    margin-bottom: 0px;
+    background: transparent;
+    padding: 3px 0px;
+    top: 0;
+    border: transparent;
+    box-shadow: -1px 1px 1px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-default .navbar-nav li a {
+    color: white;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.navbar-default .navbar-nav li a:hover {
+    font-size: 15px;
+    font-weight: 600;
+    background-color: transparent;
+    color: #ff6d6d;
+}
+
+.navbar-brand img {
+    width: 160px;
+    height: 30px;
+    margin: 5px 0px 5px 5px;
+}
+
+.navbar-fixed-top.scrolled {
+    background-color: white;
+    transition: background-color 200ms linear;
+}
+
+.navbar-fixed-top.scrolled li a {
+    color: rgb(140, 136, 136);
+}
+
+
+/*.navbar-fixed-top.scrolled .navbar-brand{
+    color: black;
+}*/
+
+.navbar-fixed-top.scrolled .navbar-nav li a:hover {
+    font-size: 15px;
+    font-weight: 600;
+    background-color: transparent;
+    color: #ff6d6d;
+}
+
+.carousel-caption {
+    padding-bottom: 160px;
+}
+
+.item.active .carousel-caption {
+    opacity: 1;
+    transition: 2s all ease-in-out .1s;
+}
+
+.text-center {
+    text-align: center;
+}
+
+h2 {
+    font-family: Lobster
+}
+
+h2 span,
+h1 span {
+    color: #ff6d6d;
+}
+
+.item::after {
+    background: rgba(0, 0, 0, .7);
+    bottom: 0;
+    content: " ";
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.section-padding {
+    padding: 50px 0px;
+}
+
+.title-desc h2 {
+    color: #4F4F4F;
+    margin-bottom: 45px;
+    font-family: 'Lobster';
+    font-size: 36px;
+}
+
+p {
+    color: #939393;
+}
+
+.title-desc p {
+    padding-bottom: 40px;
+    color: #939393;
+}
+
+.couple img {
+    box-shadow: 0 0 20px #262626;
+    border-radius: 7px;
+}
+
+.slider-area h1 {
+    font-size: 40px;
+    line-height: 35px;
+    font-family: 'Lobster';
+    color: #fff;
+}
+
+.groom-bride h2::after {
+    content: "";
+    background: #FF6D6D;
+    bottom: 0;
+    content: "";
+    height: 3px;
+    left: calc(50% - 40px);
+    position: absolute;
+    width: 75px;
+    top: 71px;
+}
+
+.groom-bride h4 {
+    font-weight: 600;
+}
+
+.single-about {
+    margin: 20px 0px;
+}
+
+.section-accecnt {
+    background: #F3F3F3;
+}
+
+.bride-groom {
+    background-image: url(../img/ci-left-top.png), url(../img/ci-right-top.png), url(../img/ci-left-bottom.png), url(../img/ci-right-bottom.png);
+    background-position: 5px 4px, 99% 4px, 5px 99%, 99% 99%;
+    background-repeat: no-repeat;
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 130px;
+    margin-bottom: 130px;
+    background-color: #fff;
+    padding: 25px;
+    border: 2px solid #FF6D6D;
+    position: relative;
+}
+
+.bride-groom h2::after {
+    content: "";
+    background: #FF6D6D;
+    bottom: 0;
+    content: "";
+    height: 3px;
+    left: calc(50% - 40px);
+    position: absolute;
+    width: 75px;
+    top: 91px;
+}
+
+.bride-groom p {
+    margin: 10px 0px 15px;
+}
+
+.couple-name {
+    margin: 20px 0px 25px;
+}
+
+.bride-groom-social ul {
+    list-style-type: disc;
+    display: block;
+    padding: 0px;
+}
+
+.bride-groom-social li {
+    display: inline;
+}
+
+.bride-groom-social ul li a {
+    border: 1px solid #4F4F4F;
+    padding: 6px 8px;
+    color: #4F4F4F;
+    font-size: 16px;
+    transition: all 500ms ease-in-out;
+    text-decoration: none;
+}
+
+.fa {
+    list-style-type: none;
+    display: inline;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+}
+
+.parallax-one {
+    background: linear-gradient(rgba(12, 0, 0, 0.59), rgb(31, 0, 0)), url('../img/parallax1.jpg') center center no-repeat fixed;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.parallax-two {
+    background: linear-gradient(rgba(12, 0, 0, 0.15), rgb(31, 0, 0)), url('../img/invitation/mosque.jpg') center center no-repeat fixed;
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 50px 0px;
+}
+
+.parallax-two h4 {
+    color: #eae1e1;
+    font-size: 19px;
+    text-align: center;
+}
+
+.service {
+    padding: 20px 0px 50px;
+    ;
+}
+
+.service h2::after {
+    content: "";
+    background: #FF6D6D;
+    bottom: 0;
+    content: "";
+    height: 3px;
+    left: calc(50% - 40px);
+    position: absolute;
+    width: 75px;
+    top: 71px;
+}
+
+.our-single-service img {
+    float: left;
+    box-shadow: 0 0 20px rgba(60, 47, 47, 0.94);
+    width: 100px;
+    height: 100px;
+    transition: all 500ms ease-in-out;
+    margin-right: 13px;
+    border-radius: 3px;
+}
+
+.invitation {
+    padding-bottom: 20px;
+}
+
+.invitation img {
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+    display: block;
+}
+
+.invitation h1 {
+    font-family: 'Great Vibes', cursive;
+    color: #ff6d6d;
+}
+
+.invitation h3 {
+    font-size: 2.0em;
+    color: red;
+    line-height: 100%;
+    font-family: 'Alex Brush', cursive;
+    font-weight: 300;
+    padding: 1.0em 0 1.0em 0;
+    margin: 0 auto;
+    text-align: center;
+    -webkit-font-smoothing: antialiased;
+}
+
+.gallery h2::after {
+    content: "";
+    background: #FF6D6D;
+    bottom: 0;
+    content: "";
+    height: 3px;
+    left: calc(50% - 40px);
+    position: absolute;
+    width: 75px;
+    top: 71px;
+}
+
+.footer-area {
+    background: #4F4F4F;
+    color: #fff;
+    margin-bottom: 0 !important;
+    padding: 30px 0px;
+}
+
+.footer-area p {
+    font-size: 19px;
+    margin: 0px;
+    padding: 0px 0px;
+    color: #F3F3F3;
+}
+
+
+/* BackToTop button css */
+
+#scroll {
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    cursor: pointer;
+    width: 50px;
+    height: 50px;
+    background-color: #3498db;
+    text-indent: -9999px;
+    display: none;
+    -webkit-border-radius: 60px;
+    -moz-border-radius: 60px;
+    border-radius: 60px
+}
+
+#scroll span {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-left: -8px;
+    margin-top: -12px;
+    height: 0;
+    width: 0;
+    border: 8px solid transparent;
+    border-bottom-color: #ffffff
+}
+
+#scroll:hover {
+    background-color: #e74c3c;
+    opacity: 1;
+    filter: "alpha(opacity=100)";
+    -ms-filter: "alpha(opacity=100)";
+}
+
+.no-padding {
+    padding: 0px;
+}
+
+.gallery {
+    padding: 10px 0px 50px;
+}
+
+.gallery img {
+    /*width: 292.5px; */
+    /*height: 219,3px;*/
+    width: 100%;
+    height: auto;
+}
+
+
+/*css responsive*/
+
+@media (max-width: 550px) {
+    .bride-groom {
+        width: 290px;
+    }
+    .carousel-caption {
+        padding-bottom: 25px;
+    }
+    .carousel-caption h1 {
+        font-size: 1.5em;
+        margin: 0px;
+    }
+    .footer-area p {
+        font-size: 15px;
+    }
+}

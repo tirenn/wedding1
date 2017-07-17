@@ -1,0 +1,11 @@
+@media (max-width: 414px)
+.bride-groom {
+    width: 350px;
+}
+
+@media (max-width: 768px)
+.bride-groom {
+    /*width: 470px;*/
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
